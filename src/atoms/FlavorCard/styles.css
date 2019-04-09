@@ -1,0 +1,9 @@
+.flavorCardHeader{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.flavorCard{
+    word-wrap: break-word;
+}

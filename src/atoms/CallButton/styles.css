@@ -1,0 +1,11 @@
+
+.phoneNumber, .phoneNumber:hover{
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.call {
+    color: green;
+}

@@ -1,0 +1,33 @@
+#ageVerificationContainer{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+
+.ageVerificationItem{
+  width: 350px;
+  height:500px;
+  background-color: black;
+  display: block;
+  justify-content: center;
+
+
+}
+.ageVerificationLogo{
+  width: 80%;
+  height: 60%;
+}
+
+.ageVerificationText{
+  color: white;
+  font-family: "Noto Sans",sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

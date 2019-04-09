@@ -1,0 +1,27 @@
+.ageVerificationButton{
+  border-radius: 0;
+  border: 2px solid;
+  background-color: black;
+  border-color: white;
+  outline-style: none;
+  color: white;
+  font-family: "Noto Sans",sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  width: 6rem;
+  height: 2 rem;
+  -webkit-transition:  background-color 0.4s, color 0.4s;
+    transition:  background-color 0.4s, color 0.4s;
+  outline: none;
+  _noFocusLine: expression(this.hideFocus=true);
+}
+
+.ageVerificationButton:hover, .ageVerificationButton:active{
+  background-color: #ffffff ;
+  color:black;
+  outline: none;
+  border-color: white;
+  cursor: pointer;
+}
