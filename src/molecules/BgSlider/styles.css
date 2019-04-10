@@ -1,21 +1,22 @@
 .carouselImage1 {
-    background-image: url("car1.jpg") !important;
+    background-image: url("IMG_1800.JPG") !important;
 }
 
 .carouselImage2 {
-    background-image: url("car2.jpg") !important;
+    background-image: url("IMG_1849.JPG") !important;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 .carouselImage3 {
-    background-image: url("car3.jpg") !important;
+    background-image: url("IMG_2299.JPG") !important;
     background-size: cover;
-    background-position: center;
+    background-position: left;
+    /* девушки слева */
 }
 .bigLogo{
-    width: 60%;
-    height: 60%;
+    width: 27%;
+    height: 27%;
     -webkit-transition-property: width, height;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
     transition: width 2s, height 2s, transform 2s;

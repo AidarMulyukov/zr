@@ -103,7 +103,6 @@ figure {
 
 /*секция с закрепленным фоновым изображением*/
 #fixed {
-    background-image: url('images/car1.jpg');
     position: fixed;
     display: block;
     top: 0;

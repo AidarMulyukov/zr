@@ -1,13 +1,16 @@
 import React from 'react';
 import './styles.css';
-import img from './logo.svg';
+// import img from './logo.svg';
+import img from '../../img/logo.svg';
 const BgSlider = () => (
 //todo fix width
-    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="700000">
+    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="5000">
         <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
         </ol>
         <div className="carousel-inner" role="listbox">
 
@@ -25,8 +28,10 @@ const BgSlider = () => (
                   </div>
                   -->*/}
             </div>
+            <div className="carousel-item carouselImage1"></div>
             <div className="carousel-item carouselImage2"></div>
             <div className="carousel-item carouselImage3"></div>
+
         </div>
 
 

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavSection from "./molecules/NavSection";
-import Slider from "./molecules/Slider";
 import Jumbotron from "./molecules/Jumbotron";
 import BriefInfo from "./molecules/BriefInfo";
 import InfoSection from "./molecules/InfoSection";
@@ -29,18 +27,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {!this.state.olderThan18 && <Modal callBackFromParent={this.handleModal} /> } 
+        {/* {!this.state.olderThan18 && <Modal callBackFromParent={this.handleModal} /> }  */}
         
         {
           this.state.olderThan18 &&
           <div>
             <Home />
-            <Jumbotron />
-            <BriefInfo />
-            <InfoSection />
-            <PriceList/>
-            <Connect />
-            <Footer />
+            {/* <Jumbotron /> */}
+            {/* <BriefInfo /> */}
+            {/* <InfoSection /> */}
+            {/* <PriceList/> */}
+            {/* <Connect /> */}
+            {/* <Footer /> */}
           </div>
         }
         {/* 
