@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/zr/static/media/IMG_2298.21374eb8.jpg"
   },
   {
-    "revision": "d89e0298d03658c6577174f089fe1be7",
-    "url": "/zr/static/media/IMG_1800.d89e0298.JPG"
-  },
-  {
     "revision": "64ce3e0cf844e67e9eb33711c358acfe",
     "url": "/zr/static/media/IMG_1849.64ce3e0c.JPG"
+  },
+  {
+    "revision": "d89e0298d03658c6577174f089fe1be7",
+    "url": "/zr/static/media/IMG_1800.d89e0298.JPG"
   },
   {
     "revision": "c207819fb19af00a50f2",
@@ -100,12 +100,12 @@ self.__precacheManifest = [
     "url": "/zr/static/media/fa-solid-900.61969d43.woff"
   },
   {
-    "revision": "c39278f7abfc798a241551194f55e29f",
-    "url": "/zr/static/media/fa-brands-400.c39278f7.ttf"
-  },
-  {
     "revision": "d9d17590c975aad1be0ddab673f9c769",
     "url": "/zr/static/media/fa-brands-400.d9d17590.eot"
+  },
+  {
+    "revision": "c39278f7abfc798a241551194f55e29f",
+    "url": "/zr/static/media/fa-brands-400.c39278f7.ttf"
   },
   {
     "revision": "e7e957c87c454bccaa3bf9fdaa6874f8",
