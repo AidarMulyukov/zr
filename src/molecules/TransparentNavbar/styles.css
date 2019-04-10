@@ -1,10 +1,12 @@
-@font-face{
+/* @font-face{
     font-family: "Futura light C";
     src: 'url(fonts/futuralightc.otf)';
+    font-style: normal;
+    font-weight: normal;
 }
 body{
-    font-family: "Futura light C" !important;
-}
+    font-family: "Futura light C","Arial", "Sans-serif" !important;
+} */
 
 a {
     font-size: 14px;
@@ -22,7 +24,7 @@ span:hover{
 
 .tinyNavLogo{
     margin-top: -12px;
-    height: 100px;
+    height: 0px;
 }
 
 .logoWrapper{

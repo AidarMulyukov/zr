@@ -1,9 +1,8 @@
 import React from 'react';
 import './styles.css';
-// import img from './logo.svg';
 import img from '../../img/logo.svg';
 const BgSlider = () => (
-//todo fix width
+
     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="5000000">
         <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -18,15 +17,6 @@ const BgSlider = () => (
               <section className="welcome">
                   <img className="bigLogo" src={img} alt=""/>
               </section>
-                {/*
-                  <!--
-                  <div class="carousel-caption d-none d-md-block text-center">
-
-                      <h5>Уникальная палитра вкусов</h5>
-                      <p>Среди наших продуктов выделяют "зелйный банан", "лесные ягоды" и многие другие экзотичные ароматы.</p>
-                      <a className="btn btn-outline-light btn-lg" href="#about">Подробнее</a>
-                  </div>
-                  -->*/}
             </div>
             <div className="carousel-item carouselImage1"></div>
             <div className="carousel-item carouselImage2"></div>

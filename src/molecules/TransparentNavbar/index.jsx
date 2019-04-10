@@ -11,17 +11,14 @@ class TransparentNavbar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-0">
         <h1 className="navbar-brand ml-2" href="">ZR Premium</h1>
-        <div className="ml-auto mr-auto logoWrapper">
-          <img src={img} alt="logo" className="tinyNavLogo"></img>
-        </div>
-        {/* убрать подсветку on-active */}
+  
 
         <button className="navbar-toggler border-0 noBorder " type="button" data-toggle="collapse" data-target="#navbarResponsive">
           <span className="navbar-toggler-icon "></span>
         </button>
         {/* text logo navbutton */}
         {/* номер */}
-        <div className="container d-block d-lg-none phoneNumber">
+        <div className="container d-block d-lg-none phoneNumber py-0">
           <span className="s text-white">8 800 444 10 88</span>
         </div>
         <div className="collapse navbar-collapse" id="navbarResponsive">
