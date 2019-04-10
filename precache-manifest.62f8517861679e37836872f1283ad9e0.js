@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/zr/static/media/priceList.b8fe71ba.jpg"
   },
   {
-    "revision": "c207819fb19af00a50f2",
-    "url": "/zr/static/css/main.6fffd725.chunk.css"
+    "revision": "8e3eb5d5393d3a2f4b03",
+    "url": "/zr/static/css/main.dd4869af.chunk.css"
   },
   {
     "revision": "82905d8d1c06969df11c8c378e9bdd4c",
@@ -56,16 +56,16 @@ self.__precacheManifest = [
     "url": "/zr/static/media/IMG_2298.21374eb8.jpg"
   },
   {
-    "revision": "64ce3e0cf844e67e9eb33711c358acfe",
-    "url": "/zr/static/media/IMG_1849.64ce3e0c.JPG"
-  },
-  {
     "revision": "d89e0298d03658c6577174f089fe1be7",
     "url": "/zr/static/media/IMG_1800.d89e0298.JPG"
   },
   {
-    "revision": "c207819fb19af00a50f2",
-    "url": "/zr/static/js/main.c207819f.chunk.js"
+    "revision": "64ce3e0cf844e67e9eb33711c358acfe",
+    "url": "/zr/static/media/IMG_1849.64ce3e0c.JPG"
+  },
+  {
+    "revision": "8e3eb5d5393d3a2f4b03",
+    "url": "/zr/static/js/main.8e3eb5d5.chunk.js"
   },
   {
     "revision": "65779ebcc35604a25c2ba77309c5b8af",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/zr/static/css/1.2e7f6f32.chunk.css"
   },
   {
-    "revision": "98d8ab39618c45299c11ce4234a568a8",
+    "revision": "f6ce3f70ed987b07fdeac8f40734ab5d",
     "url": "/zr/index.html"
   }
 ];
