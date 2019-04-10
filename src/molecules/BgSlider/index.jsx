@@ -4,7 +4,7 @@ import './styles.css';
 import img from '../../img/logo.svg';
 const BgSlider = () => (
 //todo fix width
-    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="5000">
+    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="5000000">
         <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

@@ -22,8 +22,7 @@ span:hover{
 
 .tinyNavLogo{
     margin-top: -12px;
-    min-height:7%;
-    min-width: 7%;
+    height: 100px;
 }
 
 .logoWrapper{

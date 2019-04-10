@@ -1,5 +1,8 @@
 .carouselImage1 {
     background-image: url("IMG_1800.JPG") !important;
+    background-size: cover;
+    background-position-x: 10%;
+    background-position-y: 10%;
 }
 
 .carouselImage2 {
@@ -9,9 +12,9 @@
 }
 
 .carouselImage3 {
-    background-image: url("IMG_2299.JPG") !important;
+    background-image: url("IMG_2298.jpg") !important;
     background-size: cover;
-    background-position: left;
+    background-position-x: 10%;
     /* девушки слева */
 }
 .bigLogo{
