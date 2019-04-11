@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/zr/static/media/fa-regular-400.f6c6f6c8.ttf"
   },
   {
-    "revision": "c0d05364a7a184f92558",
-    "url": "/zr/static/css/main.adc70a5a.chunk.css"
+    "revision": "a763557a22aa623079f4",
+    "url": "/zr/static/css/main.14fac544.chunk.css"
   },
   {
     "revision": "82905d8d1c06969df11c8c378e9bdd4c",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/zr/static/media/IMG_2298.21374eb8.jpg"
   },
   {
-    "revision": "d89e0298d03658c6577174f089fe1be7",
-    "url": "/zr/static/media/IMG_1800.d89e0298.JPG"
-  },
-  {
     "revision": "64ce3e0cf844e67e9eb33711c358acfe",
     "url": "/zr/static/media/IMG_1849.64ce3e0c.JPG"
+  },
+  {
+    "revision": "d89e0298d03658c6577174f089fe1be7",
+    "url": "/zr/static/media/IMG_1800.d89e0298.JPG"
   },
   {
     "revision": "c83cbe41a92f84383c196b39d8312bfd",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/zr/static/media/fa-regular-400.414ff5da.eot"
   },
   {
-    "revision": "c0d05364a7a184f92558",
-    "url": "/zr/static/js/main.c0d05364.chunk.js"
+    "revision": "a763557a22aa623079f4",
+    "url": "/zr/static/js/main.a763557a.chunk.js"
   },
   {
     "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/zr/static/css/1.455f04da.chunk.css"
   },
   {
-    "revision": "39ee010be6ca9a5cb1688f4a52d6e23a",
+    "revision": "efade5638fedef84173b628cafd98ad4",
     "url": "/zr/index.html"
   }
 ];
