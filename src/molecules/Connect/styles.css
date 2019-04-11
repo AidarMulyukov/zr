@@ -1,7 +1,22 @@
 .vk {
-    color:#4a76a8;
+    color: white;
+    display: inline;
+}
+
+.youtube {
+    display: inline;
+    color: white;
 }
 
 .instagram {
-    color:#e03c66;
+    display: inline;
+    color: white;
+}
+
+#contact li {
+    display: inline-block;
+}
+
+.center-xs {
+    text-align: center;
 }

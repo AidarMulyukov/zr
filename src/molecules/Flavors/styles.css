@@ -7,8 +7,7 @@
     height: 50vh !important;
 }
 
-
-.stroke {
+.flavorHeader {
     font-family: 'Stroke', sans-serif !important;
     color: white;
     font-size: 50px;
@@ -16,7 +15,7 @@
     top: 27%;
 }
 
-.flavorContent{
+.flavorText{
     position: relative;
     top:43%;
     color: white;
@@ -24,10 +23,24 @@
     text-transform: uppercase;
 }
 
-.highCarouselInner{
-    height:100%;
+@media screen and (max-width: 500px){
+    .flavorHeader {
+        font-family: 'Stroke', sans-serif !important;
+        color: white;
+        font-size: 40px;
+        position: relative;
+        top: 23%;
+    }
+    
+    .flavorText{
+        position: relative;
+        top:40%;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
 }
 
-.cardWrapper{
-    display: flex;
+.carouselItem {
+    height:100%;
 }

@@ -44,20 +44,25 @@ class Flavors extends Component {
 
     render() {
         return (
-            <div className="container bgBlack">
-                <div id="carouselFlavorIndicators" class="carousel slide carouselFix" data-ride="100000000">
+            <div className="container-fluid bgBlack">
+                <div id="carouselFlavorIndicators" class="carousel slide carouselFix" data-ride="carousel" data-interval="100000">
                     <ol class="carousel-indicators d-none d-md-flex">
                         <li data-target="#carouselFlavorIndicators" data-slide-to="0" class="active"></li>
                         {this.state.flavors.map((item) => <li key={item.id} data-target="#carouselFlavorIndicators" data-slide-to={item.id}></li>)}
                     </ol>
-                    <div class="carousel-inner highCarouselInner cardWrapper">
-                        {this.state.flavors.map((item) => <div className={`carousel-item ${item.id === 1?"active":""}`}>
 
-                            <h3 class="w-100 stroke" >{item.eng}</h3>
-                            <p className="flavorContent">{`${item.rus} - ${item.description}`}</p>
+
+                    <div class="carousel-inner carouselItem">
+                        {this.state.flavors.map((item) => 
+                        <div className={`carousel-item carouselItem pb-4 ${item.id === 1 ? "active" : ""}`}>
+
+                            <h3 class="w-100 flavorHeader" >{item.eng}</h3>
+                            <p className="flavorText">{`${item.rus} - ${item.description}`}</p>
 
                         </div>)}
                     </div>
+
+
                     <a class="carousel-control-prev" href="#carouselFlavorIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>

@@ -6,7 +6,7 @@ import Footer from './molecules/Footer';
 import Home from './templates/Home';
 import Modal from './molecules/Modal'
 import Flavors from './molecules/Flavors';
-
+import PhoneNumber from './molecules/PhoneNumber';
 
 class App extends Component {
   constructor(props) {
@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* {!this.state.olderThan18 && <Modal callBackFromParent={this.handleModal} /> }  */}
+        {!this.state.olderThan18 && <Modal callBackFromParent={this.handleModal} /> } 
 
         {
           this.state.olderThan18 &&
@@ -34,10 +34,8 @@ class App extends Component {
             <Home />
             <Jumbotron />
             <Flavors/>
-            {/* <BriefInfo /> */}
-            {/* <InfoSection /> */}
-            {/* <PriceList/> */}
-            <Connect />
+            <PhoneNumber/>
+            <Connect/>
             <Footer />
           </div>
         }
