@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Jumbotron from "./molecules/Jumbotron";
-import BriefInfo from "./molecules/BriefInfo";
-import InfoSection from "./molecules/InfoSection";
 import Connect from './molecules/Connect';
 import Footer from './molecules/Footer';
 import Home from './templates/Home';
 import Modal from './molecules/Modal'
-import PriceList from './molecules/PriceList';
 import Flavors from './molecules/Flavors';
 
 
