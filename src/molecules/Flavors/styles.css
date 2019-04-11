@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Stroke";
+    src: url('../../fonts/11872.otf');
+}
+
+.carouselFix {
+    height: 50vh !important;
+}
+
+
+.stroke {
+    font-family: 'Stroke', sans-serif !important;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 27%;
+}
+
+.flavorContent{
+    position: relative;
+    top:43%;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.highCarouselInner{
+    height:100%;
+}
+
+.cardWrapper{
+    display: flex;
+}

@@ -13,14 +13,14 @@ const BgSlider = () => (
         </ol>
         <div className="carousel-inner" role="listbox">
 
-            <div className="carousel-item active">
+            <div className="carousel-item active mainCarouselItem">
               <section className="welcome">
                   <img className="bigLogo" src={img} alt=""/>
               </section>
             </div>
-            <div className="carousel-item carouselImage1"></div>
-            <div className="carousel-item carouselImage2"></div>
-            <div className="carousel-item carouselImage3"></div>
+            <div className="carousel-item carouselImage1 mainCarouselItem"></div>
+            <div className="carousel-item carouselImage2 mainCarouselItem"></div>
+            <div className="carousel-item carouselImage3 mainCarouselItem"></div>
 
         </div>
 
